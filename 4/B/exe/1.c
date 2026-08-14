@@ -34,9 +34,7 @@ int main()
             low = mid + 1;
     }
 
-    if(found)
-        printf("String found at position %d", mid + 1);
-    else
+    if(!found)
         printf("String not found");
 
     return 0;
