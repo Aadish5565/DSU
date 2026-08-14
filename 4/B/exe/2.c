@@ -26,10 +26,10 @@ int main()
 
     printf("Enter strings in ascending order:\n");
     for(i = 0; i < n; i++)
-        scanf("%s", a[i]);
+        scanf("%s", &a[i]);
 
     printf("Enter string to search: ");
-    scanf("%s", key);
+    scanf("%s", &key);
 
     result = binarySearch(a, 0, n - 1, key);
 
